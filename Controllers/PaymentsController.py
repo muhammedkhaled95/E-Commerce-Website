@@ -1,4 +1,4 @@
-from BaseController import BaseController
+from .BaseController import BaseController
 
 class PaymentsController(BaseController):
     def __init__(self):

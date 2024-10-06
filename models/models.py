@@ -1,20 +1,16 @@
 from sqlalchemy import Column, Integer, String, Float, Boolean, ForeignKey, DateTime, Text, VARCHAR
 from sqlalchemy.orm import relationship
-from database.database import Base
+from database.db import Base
 import datetime
 
 class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)
-    username = Column(String, unique=True, nullable=False)
     email = Column(String, unique=True, nullable=False)
     password = Column(String, nullable=False)
-    full_name = Column(String, nullable=False)
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    role = Column(String, nullable=False)
-
     carts = relationship("Cart", back_populates="user")
     payments = relationship("Payment", back_populates="user")
     orders = relationship("Order", back_populates="user")

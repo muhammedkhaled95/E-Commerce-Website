@@ -1,4 +1,4 @@
-from BaseController import BaseController
+from .BaseController import BaseController
 
 # Assuming you have a base controller class defined somewhere
 
