@@ -1,4 +1,4 @@
-# Clothing Branch E-Commerce Website
+# E-Commerce Website
 
 Welcome to the Clothing Branch E-Commerce Website repository. This project is designed to provide a seamless online shopping experience for customers looking to purchase clothing items.
 
@@ -14,7 +14,7 @@ Welcome to the Clothing Branch E-Commerce Website repository. This project is de
 
 ## Introduction
 
-This project is an e-commerce website for a clothing brand. It includes features such as product listings, a shopping cart, user authentication, and payment processing.
+This project is an e-commerce website cookie cutter. It includes features such as product listings, a shopping cart, user authentication, and payment processing.
 
 ## Features
 
