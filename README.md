@@ -1,6 +1,6 @@
 # E-Commerce Website
 
-Welcome to the Clothing Branch E-Commerce Website repository. This project is designed to provide a seamless online shopping experience for customers looking to purchase clothing items.
+Welcome to the Univendor E-Commerce Website cookie cutter. This project is designed to provide a seamless online shopping experience for customers looking to purchase different products.
 
 ## Table of Contents
 
